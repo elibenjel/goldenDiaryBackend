@@ -1,0 +1,7 @@
+{
+  "bills": {
+    "ref": "#/relationship/mongodb-atlas/GoldenDiary/Bill",
+    "foreignKey": "_id",
+    "isList": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "spendingIDs": {
+    "ref": "#/relationship/mongodb-atlas/GoldenDiary/Spending",
+    "foreignKey": "_id",
+    "isList": true
+  }
+}

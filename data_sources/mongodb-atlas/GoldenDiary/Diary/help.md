@@ -1,0 +1,2 @@
+The file rules.json allows to define collection-level access rules, by defining roles that can access the data of the corresponding collection.
+This works only if the cluster containing the collection is not synced. Otherwise, this rules are defined in the sync configuration, and cannot be collection-specific if the sync is partition-based.

@@ -1,0 +1,30 @@
+{
+  "title": "Bill",
+  "bsonType": "object",
+  "required": [
+    "_id",
+    "_owner",
+    "createdAt",
+    "updatedAt"
+  ],
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_owner": {
+      "bsonType": "string"
+    },
+    "createdAt": {
+      "bsonType": "date"
+    },
+    "updatedAt": {
+      "bsonType": "date"
+    },
+    "spendingIDs": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "objectId"
+      }
+    }
+  }
+}

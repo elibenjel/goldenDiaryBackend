@@ -1,0 +1,39 @@
+{
+  "collection": "Diary",
+  "database": "GoldenDiary",
+  "roles": [
+    {
+      "name": "owner",
+      "apply_when": {
+        "%%root._owner": "%%user.id"
+      },
+      "fields": {
+        "_id": {
+          "write": true,
+          "read": true
+        },
+        "_owner": {
+          "write": true,
+          "read": true
+        },
+        "createdAt": {
+          "write": true,
+          "read": true
+        },
+        "updatedAt": {
+          "write": true,
+          "read": true
+        },
+        "spendingCategories": {
+          "write": true,
+          "read": true
+        }
+      },
+      "insert": true,
+      "delete": true,
+      "search": true,
+      "additional_fields": {}
+    }
+  ]
+}
+

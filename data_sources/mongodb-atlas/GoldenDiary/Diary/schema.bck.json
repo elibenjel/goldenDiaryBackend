@@ -1,0 +1,34 @@
+{
+  "title": "Diary",
+  "bsonType": "object",
+  "required": [
+    "_id",
+    "_owner",
+    "createdAt",
+    "updatedAt",
+    "defaultCurrency"
+  ],
+  "properties": {
+    "_id": {
+      "bsonType": "objectId"
+    },
+    "_owner": {
+      "bsonType": "string"
+    },
+    "createdAt": {
+      "bsonType": "date"
+    },
+    "updatedAt": {
+      "bsonType": "date"
+    },
+    "spendingCategories": {
+      "bsonType": "array",
+      "items": {
+        "bsonType": "string"
+      }
+    },
+    "defaultCurrency": {
+      "bsonType": "string"
+    }
+  }
+}

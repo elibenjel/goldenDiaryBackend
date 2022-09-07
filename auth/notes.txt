@@ -1,0 +1,6 @@
+To set up a confirmation function:
+- set runConfirmationFunction to true in providers.json
+- add the name of the function with confirmationFunctionName field
+- write the function
+helpful links:
+https://www.mongodb.com/docs/atlas/app-services/authentication/email-password/#std-label-config-email-password
