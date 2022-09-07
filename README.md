@@ -11,8 +11,8 @@ npm install -g mongodb-realm-cli
 
 ## 2. Create an Atlas cluster with MongoDB 4.4+
 
-To have a backend for your Task Tracker app, you will need a MongoDB Atlas
-cluster with MongoDB 4.4 or higher. To create an Atlas account, project, and cluster, visit the [Atlas
+To have a backend for the app, a MongoDB Atlas
+cluster with MongoDB 4.4 or higher is required. To create an Atlas account, project, and cluster, visit the [Atlas
 UI](https://cloud.mongodb.com/?tck=docs_realm).
 
 > ⚠️ Sync requires MongoDB 4.4 or above. Be sure to select at least MongoDB
@@ -44,15 +44,4 @@ realm-cli push
 
 Follow the prompts and wait for the app to deploy.
 
-Congratulations! You now have a working MongoDB Realm backend with Sync enabled.
-
-## Issues & Pull Requests
-
-If you find an issue or have a suggestion, please let us know using the feedback
-widget on the [docs site](http://www.mongodb.com/docs/realm/tutorial).
-
-This repo is automatically derived from our main docs repo. If you'd like to
-submit a pull request -- thanks! -- please feel free to do so at
-https://github.com/mongodb/docs-realm/ (see the tutorial/ subdirectory).
-
-
+(This readme is taken from the [realm backend tutorial](https://github.com/mongodb-university/realm-tutorial-backend))
